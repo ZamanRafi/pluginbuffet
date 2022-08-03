@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@700&family=Open+Sans:wght@400;700&family=Roboto:wght@400;500&family=Work+Sans:wght@600;700&display=swap');
+*>* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+    color: #000000;
+}
+
+body {
+    background: #F5F5F5;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+.row {
+    padding: 0;
+}
+
+.col-md-6 {
+    padding: 0;
+}
+
+
+/* --------------- Header --------------- */
+
+.header {
+    width: 100%;
+    height: 70px;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 10px 16px 32px rgba(0, 0, 0, 0.1);
+}
+
+.pluginbuffet-logo {
+    font-family: 'Kodchasan';
+    font-size: 16px;
+    color: #191818;
+}
+
+.pluginbuffet-nav {
+    justify-content: end;
+}
+
+.pluginbuffet-nav li {
+    margin: 15px 30px 0 0;
+}
+
+.pluginbuffet-nav a {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    color: #191818;
+}
+
+.log-in {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 8px 20px 7px 20px;
+    background: #713FFF;
+    border-radius: 3px;
+    margin: 0 0 0 10px;
+}
+
+.toggle-btn {
+    display: none;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+
+/* --------------- /Header --------------- */
+
+
+/* ------------ Main -------------- */
+
+.blog {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.top-blog h1 {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 32px;
+    padding: 0 0 10px 0;
+}
+
+.top-blog span {
+    font-family: 'Roboto';
+    font-size: 24px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 0 120px 0 0;
+}
+
+.top-blog img {
+    padding: 47px 0;
+}
+
+.top-blog p {
+    font-family: 'Work Sans';
+    font-size: 22px;
+    line-height: 36px;
+    padding: 0 70px 0 0;
+}
+
+.article {
+    margin-top: 33px;
+}
+
+.article img {
+    height: 94px;
+}
+
+.article h5 {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0px 0 6px 20px;
+}
+
+.article p {
+    font-family: 'Open Sans';
+    font-size: 17px;
+    line-height: 175%;
+    padding: 0 0 0 20px;
+    margin: 0px 0px 0 0;
+}
+
+
+/* ------------ /Main -------------- */
+
+
+/* ----------------- Footer ------------------- */
+
+.footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 55px 0 15px 0;
+}
+
+.footer-row {
+    margin: auto;
+    padding: 0 0 55px 0;
+}
+
+.footer-title a {
+    font-family: 'Kodchasan';
+    font-weight: 700;
+    font-size: 40px;
+    color: #191818;
+}
+
+.footer-title p {
+    font-family: 'Roboto';
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 27px 0 0px 0;
+}
+
+.social-midea-logo {
+    margin-top: -17px;
+}
+
+.footer-right {
+    width: 46%;
+}
+
+.sign-up-section a {
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+}
+
+.blog-email-from {
+    padding: 7px 0 7px 0;
+    border-bottom: 1px solid #0D291F;
+}
+
+.email {
+    width: 100%;
+    font-family: 'Open Sans';
+    font-size: 17px;
+    line-height: 175%;
+    color: rgba(0, 0, 0, 0.6);
+    border: none;
+    background: #F5F5F5;
+}
+
+.sign-up-button {
+    background: #713FFF;
+    border-radius: 3px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 100%;
+    margin: 15px 0 0 0;
+    padding: 9px 0 9px 0;
+}
+
+.footer-links {
+    padding-top: 27px;
+}
+
+.footer-links h4 {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 24px;
+    color: #713FFF;
+    padding: 0 0 12px 0;
+}
+
+.footer-links h5 {
+    padding: 0 0 5px 0;
+}
+
+.footer-links a {
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.8)
+}
+
+.second {
+    padding-left: 50px;
+}
+
+.third {
+    padding-left: 90px;
+}
+
+.copy {
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #a3a3a3
+}
+
+
+/* ----------------- /Footer ------------------- */
